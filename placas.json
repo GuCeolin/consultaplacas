@@ -1,6 +1,7 @@
 [
   { "inicio": "IPC", "fim": "IPC", "estado": "Rio Grande do Sul (Viatura Polícia Civil)" },
   { "inicio": "JBM", "fim": "JBM", "estado": "Rio Grande do Sul (Viatura Brigada Militar)" },
+  { "inicio": "IKH", "fim": "IKH", "estado": "Evitada para prevenir confusões fonéticas" },
   { "inicio": "AAA", "fim": "BEZ", "estado": "Paraná" },
   { "inicio": "BFA", "fim": "GKI", "estado": "São Paulo" },
   { "inicio": "GKJ", "fim": "HOK", "estado": "Minas Gerais" },
@@ -163,6 +164,7 @@
   { "inicio": "RKW", "fim": "RLP", "estado": "Santa Catarina" },
   { "inicio": "RLQ", "fim": "RMC", "estado": "Paraíba" },
   { "inicio": "RMD", "fim": "RMZ", "estado": "Minas Gerais" },
+  { "inicio": "RNA", "fim": "RNZ", "estado": "Minas Gerais" },
   { "inicio": "ROA", "fim": "ROZ", "estado": "Maranhão" },
   { "inicio": "RPA", "fim": "RPZ", "estado": "Bahia" },
   { "inicio": "RQA", "fim": "RQL", "estado": "Rio Grande do Norte" },
