@@ -8,15 +8,15 @@
     <link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
     <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
     <style>
-        body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; background-color: #f4f4f9; display: flex; justify-content: center; align-items: center; height: 100vh; margin: 0; }
-        .container { background: white; padding: 2rem; border-radius: 12px; box-shadow: 0 4px 6px rgba(0,0,0,0.1); width: 100%; max-width: 400px; text-align: center; }
-        h1 { color: #333; font-size: 1.5rem; margin-bottom: 1.5rem; }
-        input { width: 80%; padding: 12px; font-size: 1.2rem; text-transform: uppercase; border: 2px solid #ddd; border-radius: 8px; text-align: center; letter-spacing: 2px; margin-bottom: 1rem; }
-        input:focus { border-color: #007bff; outline: none; }
-        button { background-color: #007bff; color: white; border: none; padding: 12px 24px; font-size: 1rem; border-radius: 8px; cursor: pointer; transition: background 0.3s; width: 100%; }
-        button:hover { background-color: #0056b3; }
-        #resultado { margin-top: 1.5rem; font-weight: bold; font-size: 1.2rem; min-height: 1.5rem; color: #444; }
-        .footer { margin-top: 2rem; font-size: 0.8rem; color: #888; }
+        body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; background-color: #EADCCA; display: flex; justify-content: center; align-items: center; height: 100vh; margin: 0; }
+        .container { background: #F5EFE6; padding: 2rem; border-radius: 12px; border: 1px solid #D1C0B0; box-shadow: 0 1px 3px rgba(46, 26, 22, 0.08); width: 100%; max-width: 400px; text-align: center; }
+        h1 { color: #2E1A16; font-size: 1.5rem; margin-bottom: 1.5rem; }
+        input { width: 80%; padding: 12px; font-size: 1.2rem; text-transform: uppercase; border: 2px solid #D1C0B0; border-radius: 8px; text-align: center; letter-spacing: 2px; margin-bottom: 1rem; background: #FFFFFF; color: #2E1A16; }
+        input:focus { border-color: #8A1C1C; outline: none; }
+        button { background-color: #8A1C1C; color: #F5EFE6; border: none; padding: 12px 24px; font-size: 1rem; border-radius: 8px; cursor: pointer; transition: background 0.3s; width: 87%; font-weight: 500; }
+        button:hover { background-color: #6B1515; }
+        #resultado { margin-top: 1.5rem; font-weight: bold; font-size: 1.2rem; min-height: 1.5rem; color: #2E1A16; }
+        .footer { margin-top: 2rem; font-size: 0.8rem; color: #73574A; }
     </style>
 </head>
 <body>
@@ -30,7 +30,7 @@
 
     <div id="resultado"></div>
     
-    <div class="footer">Base de dados atualizada com fontes da internet <br>Desenvolvido por <a href="https://www.linkedin.com/in/gustavo-ceolin-21b36b217/" target="_blank" style="color: #007bff; text-decoration: none;">Gustavo Ceolin</a></div>
+    <div class="footer">Base de dados atualizada com fontes da internet <br>Desenvolvido por <a href="https://www.linkedin.com/in/gustavo-ceolin-21b36b217/" target="_blank" style="color: #8A1C1C; text-decoration: none;">Gustavo Ceolin</a></div>
 </div>
 
 <script>
@@ -61,7 +61,7 @@
         // Verifica se o banco de dados já carregou
         if (basePlacas.length === 0) {
             resultadoDiv.innerText = "Carregando dados... Tente novamente em instantes.";
-            resultadoDiv.style.color = "orange";
+            resultadoDiv.style.color = "#8A1C1C";
             return;
         }
 
@@ -69,7 +69,7 @@
         
         if (placa.length < 3) {
             resultadoDiv.innerText = "Digite pelo menos 3 letras.";
-            resultadoDiv.style.color = "orange";
+            resultadoDiv.style.color = "#8A1C1C";
             return;
         }
         
@@ -82,7 +82,7 @@
             // Comparação de Strings funciona alfabeticamente (Ex: "ABC" >= "AAA")
             if (letras >= range.inicio && letras <= range.fim) {
                 estadoEncontrado = `Esta placa é de: ${range.estado}`;
-                cor = "#28a745"; // Verde
+                cor = "#2E1A16"; // Café
                 break;
             }
         }
