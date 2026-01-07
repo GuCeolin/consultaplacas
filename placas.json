@@ -218,6 +218,8 @@
   { "inicio": "TOT", "fim": "TOZ", "estado": "Paraíba" },
   { "inicio": "TQO", "fim": "TRW", "estado": "Rio Grande do Sul"},
   { "inicio": "TRX", "fim": "TSE", "estado": "Amazonas"},
+  { "inicio": "TXA", "fim": "TXZ", "estado": "Minas Gerais"},
+  { "inicio": "TZA", "fim": "TZZ", "estado": "Minas Gerais"},
   { "inicio": "UAA", "fim": "UAA", "estado": "Minas Gerais" },
   { "inicio": "UAI", "fim": "UAI", "estado": "Minas Gerais" }
 ]
